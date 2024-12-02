@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: var(--header-color);
+    padding: 10px 0;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: "slogan";
+    font-size: 300%;
+    text-shadow: 2px 2px 5px black;
+}
+#main {
+    display: flex;
+  }
