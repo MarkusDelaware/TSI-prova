@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="/css/pallete.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="/img/NatureTaskLogo.png" />
     <title>NatureTask</title>
   </head>
   <body>
     <header>
-      <h1>Bem-vindo à NatureTask - Aventura e Sustentabilidade</h1>
+      <div id="header-content">
+        <img src="/img/NatureTaskLogo.png" alt="" />
+        <h1>Bem-vindo à NatureTask - Aventura e Sustentabilidade</h1>
+      </div>
     </header>
     <div id="main">
       <div id="content">
@@ -23,21 +27,77 @@
           <span>
             NatureTask é uma empresa dedicada a proporcionar experiências únicas
             ao ar livre, combinando aventura, sustentabilidade e aprendizado.
-            Nosso objetivo é conectar as pessoas à natureza de maneira
-            consciente e educativa, promovendo a preservação do meio ambiente
-            enquanto desfrutamos de suas maravilhas. Estamos comprometidos em
-            criar momentos memoráveis e enriquecedores, respeitando e cuidando
-            do planeta.
+            Nosso objetivo é trazer trilhas que conectam pessoas à natureza de
+            maneira consciente e educativa, promovendo a conservação do meio
+            ambiente enquanto desfrutamos de suas maravilhas. Estamos
+            comprometidos em criar momentos memoráveis e enriquecedores,
+            respeitando e cuidando do planeta.
           </span>
         </div>
-        <div class="serviços">
-          <img src="" alt="" />
-          <span></span>
+        <div id="service">
+          <span>Nossos Serviços</span>
+          <div id="servicos">
+            <div id="paxixi">
+              <img
+                src="/img/paxixi.jpg"
+                alt="Imagem da Vista do mirante do paxixi"
+              />
+              <h1>Trilha Mirante do Paxixi</h1>
+            </div>
+            <div id="parque">
+              <img
+                src="/img/parquedascachoeiras.jpg"
+                alt="Imagem vista de cima do Parque das Cachoeiras"
+              />
+              <h1>Trilha Parque das Cachoeiras</h1>
+            </div>
+            <div id="usina">
+              <img
+                src="/img/usina abandonada.jpg"
+                alt="Imagem de dentro da Usina de Ceroula"
+              />
+              <h1>Trilha Usina Abandonada</h1>
+            </div>
+          </div>
+          <div id="oferta">
+            <h2>Oferta Especial!</h2>
+            <p>
+              Aproveite um desconto de 20% em todas as trilhas! Explore as
+              maravilhas naturais com um preço reduzido. Não perca essa
+              oportunidade!
+            </p>
+            <button onclick="location.href='#contato-completo';">Reserve Agora</button>
+          </div>
         </div>
-        <div class="serviços">
-          <img src="" alt="" />
-          <span></span>
-        </div>
+      <!-- Seção de Contato -->
+<div id="contato-completo">
+  <div id="contact">
+      <h2>Contato</h2>
+      <form action="#" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+          
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="assunto">Assunto:</label>
+          <input type="text" id="assunto" name="assunto" required>
+          
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          
+          <button type="submit">Enviar</button>
+      </form>
+  </div>
+  
+  <div id="outras-formas">
+      <h2>Outras Formas de Contato</h2>
+      <p>Telefone: (99) 9999-9999</p>
+      <p>Email: contatoNatureTask@email.com</p>
+      <p>Endereço: Rua Bom Fim, 999, Campo Grande, MS</p>
+  </div>
+</div>
+
       </div>
     </div>
     <footer>

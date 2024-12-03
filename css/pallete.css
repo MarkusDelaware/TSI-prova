@@ -1,6 +1,6 @@
 :root {
-    --header-color:#804515;
+    --header-color:rgb(94, 77, 61);
     --content-color:#D49A6A;
-    --card-color:#60544A;
+    --card-color:wheat;
     --footer-color:#272522;
 }
