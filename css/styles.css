@@ -61,7 +61,7 @@ header img {
   width: 50%;
   padding: 0 20px;
   font-family: "Funnel Sans", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   box-sizing: border-box;
   text-align: center;
 }
@@ -75,7 +75,7 @@ header img {
   width: 100%;
   height: 80%;
   border-radius: 20px;
-  background-color: wheat;
+  background-color: var(--card-color);
   padding: 0 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -86,6 +86,13 @@ header img {
   width: 100%;
   padding: 10px 0px;
   text-align: center;
+}
+#service p {
+  font-family: "Funnel Sans", sans-serif;
+  color: rgb(34, 33, 32);
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 10px;
 }
 #servicos {
   display: flex;
@@ -243,6 +250,6 @@ footer {
 
 footer span {
   color: #fff;
-  font-family: "bold";
+  font-family: "Radley", serif;
   text-align: center;
 }

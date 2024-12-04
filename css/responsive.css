@@ -1,0 +1,61 @@
+/* Breakpoint para smartphones */
+/* Media query / Media rule */
+@media screen and (max-width: 640px) {
+    html {
+      font-size: 9px;
+    }
+  
+    #header-content {
+        display: flex;
+      padding: 10px 0;
+     align-items: center;
+    }
+  
+    #header-content h1 {
+      margin: 10px 0;
+    }
+  
+    #main {
+      flex-direction: column;
+    }
+  #about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #about span {
+font-size:20% ;
+  }
+    
+    footer {
+      padding: 20px 0;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #main {
+      flex-direction: column;
+    }
+  
+    #menu,
+    #content {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    #menu {
+      padding: 10px 0;
+    }
+  
+    #menu span {
+      display: none;
+    }
+  
+    #menu ul {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+    }
+  }
