@@ -1,13 +1,11 @@
 /* Breakpoint para smartphones */
-/* Media query / Media rule */
 @media screen and (max-width: 640px) {
   html {
     font-size: 9px;
-   
   }
-    body {
-      width: 100%;
-    }
+  body {
+    width: 100%;
+  }
   header {
     padding: 0 0px;
   }
@@ -24,7 +22,7 @@
     align-items: center;
   }
   #header-content img {
-    width: 12%;
+    width: 9%;
   }
 
   #main {
@@ -39,11 +37,11 @@
     box-sizing: border-box;
   }
   #about {
-   width: 90%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-   padding-bottom: 10px;
+    padding-bottom: 10px;
     box-sizing: border-box;
   }
 
@@ -58,22 +56,21 @@
     width: 100%;
   }
   #service {
-    width:90%;
+    width: 90%;
     display: flex;
     padding: 0 10px;
     margin: 50px 0;
-  flex-direction: column;
+    flex-direction: column;
   }
-  #service span{
+  #service span {
     font-size: 300%;
-
   }
   #servicos {
     width: 90%;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-  
+
     align-items: center;
     justify-content: center;
   }
@@ -82,26 +79,26 @@
   #usina {
     width: 90%;
   }
-  #oferta{
+  #oferta {
     margin-top: 5px;
     padding: 10px;
   }
   #contato-completo {
     display: flex;
-  flex-direction: column;
-  width: 100%;
-padding: 0;
-  align-items: center;
-  justify-content: center;
-   box-sizing: border-box;
-  }
-#contact {
+    flex-direction: column;
     width: 100%;
-}
-#contact h2 {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  #contact {
+    width: 100%;
+  }
+  #contact h2 {
     margin-top: 5px;
     font-size: 3em;
-}
+  }
   #outras-formas {
     display: flex;
     width: 100%;
@@ -110,12 +107,11 @@ padding: 0;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-
   }
   #outras-formas p {
-align-items: center;
-justify-content: center;
-    font-size:110% ;
+    align-items: center;
+    justify-content: center;
+    font-size: 110%;
     margin: 10px 0;
   }
   footer {
@@ -123,29 +119,157 @@ justify-content: center;
     text-align: center;
   }
 }
-
-@media screen and (max-width: 768px) {
-  #main {
-    flex-direction: column;
+/* Breakpoint para tablets */
+@media screen and (min-width:641px) and (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+  body {
+    width: 100%;
+  }
+  header {
+    padding: 0 0px;
+  }
+  #header-content {
+    display: flex;
+    align-items: center;
   }
 
-  #menu,
+  #header-content h1 {
+    display: flex;
+    margin: 0;
+    font-size: 250%;
+    justify-content: center;
+    align-items: center;
+  }
+  #header-content img {
+    width: 20%;
+  }
+
+  #main {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
   #content {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    padding-top: 5px;
+    box-sizing: border-box;
+  }
+  #about {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
     box-sizing: border-box;
   }
 
-  #menu {
-    padding: 10px 0;
+  #about span {
+    font-size: 200%;
+    width: 100%;
+    padding: 10px 10px;
   }
 
-  #menu span {
-    display: none;
+  #about img {
+    padding: auto;
+    width: 100%;
   }
-
-  #menu ul {
+  #service {
+    width: 90%;
     display: flex;
+    padding: 0 10px;
+    margin: 50px 0;
+    flex-direction: column;
+  }
+  #service span {
+    font-size: 500%;
+  }
+  #service p {
+    font-size: 2em;
+  }
+  #servicos {
+    width: 90%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+
+    align-items: center;
     justify-content: center;
-    gap: 100px;
+  }
+  #paxixi,
+  #parque,
+  #usina {
+    width: 90%;
+  }
+  #paxixi,
+  #parque,
+  #usina,
+  h1 {
+    font-size: 2em;
+  }
+
+  #oferta {
+    margin-top: 5px;
+    padding: 10px;
+  }
+  #oferta h2 {
+    font-size: 3em;
+  }
+  #oferta p {
+    font-size: 2em;
+  }
+  #oferta button {
+    font-size: 2em;
+  }
+  #contato-completo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  #contact {
+    width: 100%;
+  }
+  #contact h2 {
+    margin-top: 5px;
+    font-size: 5em;
+  }
+  #contact label {
+    font-size: 2em;
+  }
+  #contact input textarea {
+    width: 70%;
+  }
+  #contact button {
+    font-size: 2em;
+  }
+  #outras-formas {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+  }
+  #outras-formas h2 {
+    font-size: 4em;
+  }
+  #outras-formas p {
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  footer {
+    padding: 30px 0;
+    font-size: 2em;
+    text-align: center;
   }
 }

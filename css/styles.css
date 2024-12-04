@@ -36,6 +36,7 @@ header img {
 #content {
   display: flex;
   width: 90%;
+  flex-wrap: wrap;
   padding: 30px 20px;
   flex-direction: column;
   align-items: center;
@@ -46,6 +47,7 @@ header img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 50px auto;
   width: 80%;
   height: 80%;
@@ -90,7 +92,7 @@ header img {
 #service p {
   font-family: "Funnel Sans", sans-serif;
   color: rgb(34, 33, 32);
-  font-size: 1.3em;
+  font-size: 1.5em;
   text-align: center;
   margin-top: 10px;
 }
@@ -169,6 +171,7 @@ header img {
 #contato-completo {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
   margin: 50px auto;
